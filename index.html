@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111c">
+  <meta name="description" content="Globální přehled veřejných tendrů pro malorážové, speciální a cvičné střelivo a komponenty.">
+  <title>S&B Tender Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Přejít na obsah</a>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div><strong>S&amp;B TENDER RADAR</strong><small>Globální obchodní příležitosti</small></div>
+    </div>
+    <div class="top-actions">
+      <div class="health"><span class="health-dot"></span><span>Data v pořádku</span></div>
+      <button class="icon-button" id="themeToggle" aria-label="Přepnout barevný režim" title="Přepnout režim">◐</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">OBCHODNÍ INTELLIGENCE · VEŘEJNÁ DATA</div>
+        <h1>Příležitosti, které stojí<br><em>za pozornost.</em></h1>
+        <p>Každodenně aktualizovaný radar veřejných zakázek pro střelivo a komponenty. Jasné priority, termíny a ověřené zdroje na jednom místě.</p>
+        <div class="hero-meta">
+          <span><i class="pulse"></i> Poslední aktualizace <b id="updatedAt">načítám…</b></span>
+          <span>Pravidelná kontrola každý den v 8:00</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="radar">
+          <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+          <div class="cross x"></div><div class="cross y"></div><div class="sweep"></div>
+          <span class="ping p1"></span><span class="ping p2"></span><span class="ping p3"></span><div class="radar-center"></divdiv>
+        </div>
+      </div>
+    </section>
+
+    <section class="kpis" aria-label="Souhrnné ukazatele">
+      <article class="kpi accent"><div class="kpi-icon">◎</div><div><span>Aktivní příležitosti</span><strong id="kpiActive">—</strong><small>v databázi</small></div></article>
+      <article class="kpi"><div class="kpi-icon">↗</div><div><span>Nové tento týden</span><strong id="kpiNew">—</strong><small>za posledních 7 dní</small></div></article>
+      <article class="kpi warning"><div class="kpi-icon">◷</div><div><span>Blízký termín</span><strong id="kpiDeadline">—</strong><small>do 14 dní</small></div></article>
+      <article class="kpi"><div class="kpi-icon">◇</div><div><span>Sledované země</span><strong id="kpiCountries">—</strong><small>celosvětově</small></div></article>
+      <article class="kpi"><div class="kpi-icon">✓</div><div><span>Ověřené zdroje</span><strong id="kpiSources">—</strong><small>veřejné portály</small></div></article>
+    </section>
+
+    <section class="workspace">
+      <div class="section-heading">
+        <div><div class="eyebrow">PRIORITY A PŘEHLED</div><h2>Tendry a signály</h2></div>
+        <div class="view-tabs" role="tablist" aria-label="Zobrazení">
+          <button class="active" data-view="cards" role="tab">Karty</button>
+          <button data-view="table" role="tab">Tabulka</button>
+        </div>
+      </div>
+
+      <div class="filters">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Hledat tendr, zadavatele, zemi nebo ráži…" aria-label="Hledat"></label>
+        <label><span class="sr-only">Stav</span><select id="statusFilter"><option value="">Všechny stavy</option><option value="active">Aktivní</option><option value="upcoming">Plánované</option><option value="watch">Sledovat</option><option value="closed">Ukončené</option><option value="awarded">Zadané</option></select></label>
+        <label><span class="sr-only">Produkt</span><select id id="productFilter"><option value="">Všechny oblasti</option><option>Malorážové střelivo</option><option>Speciální a cvičné střelivo</option><option>Komponenty střeliva</option></select></label>
+        <label><span class="sr-only">Region</span><select id="regionFilter"><option value="">Celý svět</option></select></label>
+        <label><span class="sr-only">Řazení</span><select id="sortFilter"><option value="relevance">Nejvyšší relevance</option><option value="deadline">Nebližší termín</option><option value="newest">Nejnovější</option><option value="value">Nejvyšší hodnota</option></select></label>
+        <button class="clear-button" id="clearFilters">Vymazat</button>
+      </div>
+
+      <div class="results-line"><span id="resultsCount">Načítám data…</span><span class="legend"><i class="dot hot"></i> vysoká relevance <i class="dot warm"></i> střední</span></div>
+      <div id="loadingState" class="state-card"><div class="loader"></div><p>Načítám ověřené příležitosti…</p></div>
+      <div id="errorState" class="state-card error" hidden><strong>Data se nepodařilo načíst</strong><p>Web zůstává funkční, ale datový soubor není momentálně dostupný.</p><button onclick="location.reload()">Zkusit znovu</button></div>
+      <div id="emptyState" class="state-card" hidden><strong>Žádný tendr neodpovídá filtrům</strong><p>Zkus změnit některý filtr nebo vyhledávání.</p></div>
+      <div id="cardsView" class="tender-grid" hidden></div>
+      <div id="tableView" class="table-wrap" hidden><table><thead><tr><th>Příležitost</th><th>Země</th><th>Oblast</th><th>Stav</th><th>Termín</th><th>Relevance</th></tr></thead><tbody id="tableBody"></tbody></table></div>
+    </section>
+
+    <section class="insights">
+      <div class="section-heading"><div><div class="eyebrow">MANAŽERSKÝ POHLED</div><h2>Co je potřeba vědět</h2></div></div>
+      <div class="insight-grid">
+        <article class="panel opportunity"><span class="panel-tag">DOPORUČENÍ RADARU</span><h3 id="topInsight">Načítám prioritní příležitost…</h3><p id="topInsightText"></p><button id="topInsightButton">Zobrazit detail</button></article>
+        <article class="panel"><div class="panel-head"><h3>Rozložení podle oblastí</h3><span id="chartTotal">— tendrů</span></div><div id="productChart" class="bar-chart"></div></article>
+        <article class="panel"><div class="panel-head"><h3>Nejaktivnější trhy</h3><span>podle počtu záznamů</span></div><div id="countryList" class="country-list"></div></article>
+      </div>
+    </section>
+
+    <section class="method">
+      <div><div class="eyebrow">DŮVĚRYHODNOST DAT</div><h2>Každý údaj má dohledatelný původ.</h2></div>
+      <div class="method-items">
+        <div><strong>01</strong><span><b>Veřejný zdroj</b>Každý záznam odkazuje na původní oznámení.</span></div>
+        <div><strong>02</strong><span><b>Kontrola změn</b>Radar sleduje termíny, stav i dokumentaci.</span></div>
+        <div><strong>03</strong><span><b>Pevné schéma</b>Vadná data se nikdy nezveřejní.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand compact"><div class="brand-mark"><span></span><span></span><span></span></div><strong>S&amp;B TENDER RADAR</strong></div>
+    <p>Veřejné informační zdroje · Údaje je nutné ověřit v zadávací dokumentaci</p>
+    <a href="https://github.com/HonzaKud/sb-tender-radar" target="_blank" rel="noopener">Metodika a zdrojová data ↗</a>
+  </footer>
+
+  <dialog id="detailDialog"><div class="dialog-shell"><button class="dialog-close" id="dialogClose" aria-label="Zavřít">×</button><div id="dialogContent"></div></div></dialog>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
