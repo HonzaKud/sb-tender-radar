@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-07T12:30:00Z",
+  "coverage": {
+    "geography": "Celý svět",
+    "historyFrom": "2023-09-07",
+    "products": [
+      "Malorážové střelivo",
+      "Speciální a cvičné střelivo",
+      "Komponenty střeliva"
+    ],
+    "note": "První ověřovací import veřejných zdrojů. Pokrytí bude rozšiřováno při pravidelných bězích."
+  },
+  "tenders": [
+    {
+      "id": "US-ANG-2026-AMMO-001",
+      "title": "Střelivo pro střelecký výcvik Arkansas Army National Guard",
+      "buyer": "Arkansas Army National Guard",
+      "country": "Spojené státy",
+      "region": "Severní Amerika",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "neuvedeno v indexu"
+      ],
+      "status": "active",
+      "relevance": 84,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-09-05",
+      "deadline": "2026-09-11",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": true,
+      "changedFields": [],
+      "summary": "Veřejně indexovaná příležitost na dodávku střeliva pro jednotku střeleckého výcviku Národní gardy Arkansasu. Před obchodním rozhodnutím je nutné otevřít úplné oznámení a ověřit ráže, množství a způsobilost zahraničního dodavatele.",
+      "managementNote": "Krátký termín. Doporučeno okamžitě ověřit úplnou dokumentaci a omezení původu dodávky.",
+      "risks": [
+        "Krátká lhůta pro reakci",
+        "Možná omezení na americký původ nebo registraci dodavatele",
+        "Sekundární index neobsahuje úplnou specifikaci"
+      ],
+      "verification": "Nalezeno v aktuálním veřejném indexu; detail čeká na primární ověření",
+      "source": {
+        "name": "Global Tenders – veřejný index",
+        "url": "https://www.globaltenders.com/rfp/weapons-and-ammunition-tenders"
+      }
+    },
+    {
+      "id": "US-PRIMER-2026-001",
+      "title": "Zápalky M82 a M82A1",
+      "buyer": "Federální zadavatel USA",
+      "country": "Spojené státy",
+      "region": "Severní Amerika",
+      "productArea": "Komponenty střeliva",
+      "calibers": [
+        "M82",
+        "M82A1"
+      ],
+      "status": "active",
+      "relevance": 79,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-09-05",
+      "deadline": "2026-09-14",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": true,
+      "changedFields": [],
+      "summary": "Aktuálně indexovaná americká příležitost na zápalky M82 a M82A1. Jde o komponentovou zakázku s vysokou produktovou shodou, avšak bez úplných veřejně indexovaných podmínek.",
+      "managementNote": "Silná komponentová shoda; ověřit technický standard, množství a americké kvalifikační podmínky.",
+      "risks": [
+        "Nutnost dohledat primární oznámení",
+        "Možné exportní a bezpečnostní podmínky",
+        "Nezveřejněná hodnota"
+      ],
+      "verification": "Sekundární zdroj; údaje označené jako neúplné",
+      "source": {
+        "name": "Global Tenders – veřejný index",
+        "url": "https://www.globaltenders.com/rfp/weapons-and-ammunition-tenders"
+      }
+    },
+    {
+      "id": "UK-OCDS-06496B",
+      "title": "Dodávky střeliva pro policejní sbory 2026–2030",
+      "buyer": "Police and Crime Commissioner",
+      "country": "Spojené království",
+      "region": "Evropa",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "9 mm Ball"
+      ],
+      "status": "awarded",
+      "relevance": 91,
+      "value": 20000000,
+      "currency": "GBP",
+      "publishedAt": "2026-02-01",
+      "deadline": null,
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": false,
+      "changedFields": [],
+      "summary": "Víceleté zajištění dodávek střeliva pro období od března 2026 do února 2030. Historický záznam je důležitý pro sledování rámců, dodavatelů a budoucího opakování nákupu.",
+      "managementNote": "Významný referenční trh. Sledovat dodatky, dílčí odběry a přípravu navazujícího rámce před rokem 2030.",
+      "risks": [
+        "Zakázka již byla zadána",
+        "Dílčí plnění může probíhat mimo nové veřejné soutěže"
+      ],
+      "verification": "Ověřeno na oficiálním britském portálu",
+      "source": {
+        "name": "Find a Tender – GOV.UK",
+        "url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-06496b"
+      }
+    },
+    {
+      "id": "EDA-CPOA-1269",
+      "title": "Předběžná tržní konzultace – střelivo různých ráží",
+      "buyer": "European Defence Agency",
+      "country": "Belgie",
+      "region": "Evropa",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "5.56×45 mm",
+        "7.62×51 mm",
+        "9×19 mm"
+      ],
+      "status": "closed",
+      "relevance": 95,
+      "value": null,
+      "currency": "EUR",
+      "publishedAt": "2026-02-11",
+      "deadline": "2026-03-31",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": false,
+      "changedFields": [],
+      "summary": "Evropská obranná agentura provedla předběžnou konzultaci k několika kategoriím munice včetně malorážového střeliva 5.56×45 mm. Záznam vytváří silný časný signál pro navazující společné nákupy.",
+      "managementNote": "Strategický signál s vysokou shodou. Pravidelně kontrolovat EDA a navazující společné evropské zadávání.",
+      "risks": [
+        "Konzultace byla ukončena",
+        "Budoucí soutěž může mít odlišné členění nebo podmínky konsorcia"
+      ],
+      "verification": "Ověřeno na oficiálním webu EDA",
+      "source": {
+        "name": "European Defence Agency",
+        "url": "https://eda.europa.eu/procurement/other-notices/preliminary-market-consultation-for-ammunition-%28various-calibers%29-ref.-cpoa-prj.cap.1269"
+      }
+    },
+    {
+      "id": "TED-786884-2025",
+      "title": "Výcvikový systém s barvicím střelivem pro policejní výcvik",
+      "buyer": "Policejní zadavatel",
+      "country": "Švédsko",
+      "region": "Evropa",
+      "productArea": "Speciální a cvičné střelivo",
+      "calibers": [
+        "9×19 mm",
+        "5.56×45 mm"
+      ],
+      "status": "closed",
+      "relevance": 93,
+      "value": null,
+      "currency": "SEK",
+      "publishedAt": "2025-11-01",
+      "deadline": null,
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": false,
+      "changedFields": [],
+      "summary": "Zakázka související s realistickým policejním výcvikem a barvicím střelivem CMTS v rážích 9×19 mm a 5.56×45 mm. Plánované období plnění zasahuje do roku 2027.",
+      "managementNote": "Velmi dobrá produktová shoda pro cvičné střelivo. Sledovat pokračování programu a případná navazující plnění.",
+      "risks": [
+        "Součást širšího výcvikového systému",
+        "Může vyžadovat kompatibilitu s konkrétní platformou a ochrannými prostředky"
+      ],
+      "verification": "Ověřeno v oznámení TED",
+      "source": {
+        "name": "TED – Tenders Electronic Daily",
+        "url": "https://ted.europa.eu/sv/notice/786884-2025/pdf"
+      }
+    },
+    {
+      "id": "PH-PRO6-10-008-2024-G",
+      "title": "Policejní střelivo 9 mm FMJ a 5.56 mm M193",
+      "buyer": "Philippine National Police – Region VI",
+      "country": "Filipíny",
+      "region": "Asie a Pacifik",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "9 mm FMJ",
+        "5.56 mm M193"
+      ],
+      "status": "awarded",
+      "relevance": 88,
+      "value": 6918750,
+      "currency": "PHP",
+      "publishedAt": "2024-11-11",
+      "deadline": "2024-12-03",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": false,
+      "changedFields": [],
+      "summary": "Historická veřejná zakázka na 161 842 nábojů 9 mm FMJ a 51 251 nábojů 5.56 mm M193 pro filipínskou policii. Slouží jako konkrétní signál opakované policejní spotřeby.",
+      "managementNote": "Zařadit zadavatele do hlídání opakovaných nákupů. Ověřit pravidla reciprocity a lokální způsobilosti zahraničních uchazečů.",
+      "risks": [
+        "Historická zakázka",
+        "Místní pravidla mohou omezovat účast zahraničních dodavatelů"
+      ],
+      "verification": "Ověřeno v oficiálním systému PhilGEPS",
+      "source": {
+        "name": "PhilGEPS",
+        "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11456510"
+      }
+    },
+    {
+      "id": "TED-126215-2026",
+      "title": "Výroba a dodávka signálního střeliva LS75, 26,5 mm",
+      "buyer": "Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr",
+      "country": "Německo",
+      "region": "Evropa",
+      "productArea": "Speciální a cvičné střelivo",
+      "calibers": [
+        "26,5 mm"
+      ],
+      "status": "closed",
+      "relevance": 72,
+      "value": null,
+      "currency": "EUR",
+      "publishedAt": "2026-02-22",
+      "deadline": "2026-05-23",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-07",
+      "isNew": false,
+      "changedFields": [],
+      "summary": "Německá zakázka na výrobu a dodávku vícenásobného bílého signálního střeliva LS75 DM25A1B1 ráže 26,5 mm.",
+      "managementNote": "Relevantní historický signál v oblasti speciálního střeliva. Sledovat další nákupy Bundeswehru stejné produktové rodiny.",
+      "risks": [
+        "Ukončená lhůta",
+        "Možné specifické vojenské kvalifikace"
+      ],
+      "verification": "Ověřeno v registru TED",
+      "source": {
+        "name": "TED – Tenders Electronic Daily",
+        "url": "https://ted.europa.eu/de/notice/-/detail/126215-2026"
+      }
+    }
+  ]
+}
