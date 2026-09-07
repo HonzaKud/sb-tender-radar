@@ -1,0 +1,9 @@
+{
+  "name": "sb-tender-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veřejný globální radar tendrů pro střelivo a komponenty",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs"
+  }
+}
