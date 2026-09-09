@@ -1,124 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-08T06:00:37.000Z",
+  "generatedAt": "2026-09-09T05:57:54.000Z",
   "coverage": {
     "geography": "Celý svět",
-    "historyFrom": "2023-09-08",
+    "historyFrom": "2023-09-09",
     "products": [
       "Malorážové střelivo",
       "Speciální a cvičné střelivo",
       "Komponenty střeliva"
     ],
-    "note": "Rozšířený monitoring veřejných zdrojů k 8. 9. 2026: otevřené soutěže, plánované a RFI signály i relevantní historické zakázky. Nejde o garanci úplnosti celého světového trhu; nejistoty a omezení účasti jsou uvedeny u jednotlivých záznamů."
+    "note": "Rozšířený monitoring veřejných zdrojů k 9. 9. 2026: otevřené soutěže, plánované a RFI signály i relevantní historické zakázky. Nejde o garanci úplnosti celého světového trhu; nejistoty a omezení účasti jsou uvedeny u jednotlivých záznamů."
   },
   "tenders": [
-    {
-      "id": "US-INL-191NLE26Q0132",
-      "title": "6,5 milionu nábojů 5,56 mm a 9 mm pro program INL Kyiv",
-      "buyer": "U.S. Department of State – INL Kyiv",
-      "country": "Spojené státy / Ukrajina",
-      "region": "Severní Amerika",
-      "productArea": "Malorážové střelivo",
-      "calibers": [
-        "5.56×45 mm M855",
-        "9×19 mm M882",
-        "5.56×45 mm M855 linked"
-      ],
-      "status": "active",
-      "relevance": 98,
-      "value": null,
-      "currency": "USD",
-      "publishedAt": "2026-09-01",
-      "deadline": "2026-09-08",
-      "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
-      "isNew": true,
-      "changedFields": [],
-      "summary": "Program INL Kyiv poptává 3 miliony nábojů 5,56 mm M855, 1 milion nábojů 9 mm M882 124 gr FMJ a 2,5 milionu páskovaných M855 bez stopovače. Požadováno je nové zboží a dodání do 270 dnů.",
-      "managementNote": "Největší mimoevropská objemová příležitost v dnešním výběru, ale s kritickým termínem a výraznými omezeními účasti. Prověřit amerického partnera.",
-      "risks": [
-        "Uzávěrka následující den",
-        "Vyhrazeno pro americké veteránské malé podniky SDVOSB",
-        "Exportní a logistické požadavky pro dodání na Ukrajinu"
-      ],
-      "verification": "Ověřeno v primárním oznámení SAM.gov včetně množství a omezení soutěže.",
-      "source": {
-        "name": "SAM.gov",
-        "url": "https://sam.gov/opp/5c8f116e079b419d924134d72d2623fd/view"
-      }
-    },
-    {
-      "id": "US-IRS-231043",
-      "title": "Víceletý program 9mm a .223/5,56mm střeliva pro IRS",
-      "buyer": "Internal Revenue Service – Criminal Investigation",
-      "country": "Spojené státy",
-      "region": "Severní Amerika",
-      "productArea": "Malorážové střelivo",
-      "calibers": [
-        "9×19 mm duty",
-        "9×19 mm training",
-        ".223 Remington",
-        "5.56×45 mm"
-      ],
-      "status": "active",
-      "relevance": 91,
-      "value": null,
-      "currency": "USD",
-      "publishedAt": "2026-09-03",
-      "deadline": "2026-09-08",
-      "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
-      "isNew": true,
-      "changedFields": [],
-      "summary": "IRS Criminal Investigation znovu vypsala víceletý program na služební a výcvikové střelivo 9 mm a puškové střelivo .223/5,56 mm, s předpokládaným základním obdobím a čtyřmi opcemi.",
-      "managementNote": "Dobrá produktová shoda, ale prakticky okamžitá uzávěrka. Záznam je důležitý i jako signál budoucí federální spotřeby a cenových podmínek.",
-      "risks": [
-        "Kriticky krátká lhůta",
-        "Oznámení bylo opakovaně aktualizováno; nutno číst poslední dodatek",
-        "Americké federální a původové podmínky"
-      ],
-      "verification": "Primární oznámení SAM.gov bylo zkontrolováno 7. 9. 2026; před reakcí ověřit poslední změnu termínu v pracovním prostoru zakázky.",
-      "source": {
-        "name": "SAM.gov",
-        "url": "https://sam.gov/opp/e9a874b43c7f4b148999d9cbcfde1b04/view"
-      }
-    },
-    {
-      "id": "US-USBR-140R4026Q0152",
-      "title": "Výcvikové značkovací a slepé střelivo 5,56 mm a 9 mm",
-      "buyer": "U.S. Bureau of Reclamation",
-      "country": "Spojené státy",
-      "region": "Severní Amerika",
-      "productArea": "Speciální a cvičné střelivo",
-      "calibers": [
-        "5.56×45 mm marking",
-        "5.56×45 mm blank",
-        "9×19 mm marking",
-        "9×19 mm blank"
-      ],
-      "status": "active",
-      "relevance": 76,
-      "value": null,
-      "currency": "USD",
-      "publishedAt": "2026-09-01",
-      "deadline": "2026-09-08",
-      "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
-      "isNew": true,
-      "changedFields": [],
-      "summary": "Bureau of Reclamation poptává značkovací a hlasité slepé výcvikové střelivo: 19 800 kusů 5,56 mm marking, 7 200 kusů 5,56 mm blank, 20 000 kusů 9 mm marking a 1 000 kusů 9 mm blank včetně ochranných prostředků.",
-      "managementNote": "Relevantní menší cvičný balík. Reagovat pouze při splnění amerického small-business režimu nebo přes způsobilého partnera.",
-      "risks": [
-        "Vyhrazeno americkým malým podnikům",
-        "Brand-name-or-equal požadavek UTM",
-        "Kriticky krátká lhůta a dodání do 120 dnů"
-      ],
-      "verification": "Ověřeno v primárním oznámení SAM.gov včetně množství a režimu soutěže.",
-      "source": {
-        "name": "SAM.gov",
-        "url": "https://sam.gov/opp/db49444a636048f7a7a2851a4a068b7b/view"
-      }
-    },
     {
       "id": "TED-535382-2026",
       "title": "Signální střelivo LS10 ráže 38 mm",
@@ -136,7 +29,7 @@
       "publishedAt": "2026-08-03",
       "deadline": "2026-09-09",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Německý obranný nákup ručně odpalovaného červeného padákového signálního střeliva LS10 ráže 38 mm pro dodávky v letech 2026 až 2027.",
@@ -170,7 +63,7 @@
       "publishedAt": "2026-08-03",
       "deadline": "2026-09-10",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Portugalská armáda soutěží dvě relevantní části na frangible střelivo 5,56×45 mm a 9×19 mm, každou v hodnotě 240 000 EUR. Třetí část se týká cvičných ručních granátů.",
@@ -184,39 +77,6 @@
       "source": {
         "name": "TED – Tenders Electronic Daily",
         "url": "https://ted.europa.eu/en/notice/-/detail/534331-2026"
-      }
-    },
-    {
-      "id": "TED-609937-2026",
-      "title": "Dodávka 300 000 nábojů 9×19 mm FMJ",
-      "buyer": "Izba Administracji Skarbowej w Rzeszowie",
-      "country": "Polsko",
-      "region": "Evropa",
-      "productArea": "Malorážové střelivo",
-      "calibers": [
-        "9×19 mm FMJ"
-      ],
-      "status": "active",
-      "relevance": 92,
-      "value": null,
-      "currency": "PLN",
-      "publishedAt": "2026-09-04",
-      "deadline": "2026-09-10",
-      "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
-      "isNew": true,
-      "changedFields": [],
-      "summary": "Polská celní správa soutěží v samostatné muniční části 300 000 nových nábojů 9×19 mm FMJ; 150 000 kusů tvoří jistý odběr a dalších 150 000 kusů opce.",
-      "managementNote": "Velmi dobrá produktová shoda, ale mimořádně krátký termín. Prověřit samostatnou účast v muniční části a lokální formality.",
-      "risks": [
-        "Uzávěrka během několika dnů",
-        "Zakázka je součástí širšího nákupu zbraní a prostředků",
-        "Dokumentace a podání v polštině"
-      ],
-      "verification": "Ověřeno v aktuálním oznámení TED; termín a veřejné parametry zkontrolovány 7. 9. 2026.",
-      "source": {
-        "name": "TED – Tenders Electronic Daily",
-        "url": "https://ted.europa.eu/en/notice/-/detail/609937-2026"
       }
     },
     {
@@ -236,7 +96,7 @@
       "publishedAt": "2026-07-08",
       "deadline": "2026-09-10",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "V šesté části širší italské policejní zakázky jsou poptávány přesné náboje .308 Winchester s projektilem HPBT 168 grain v odhadované hodnotě 480 000 EUR.",
@@ -250,6 +110,41 @@
       "source": {
         "name": "TED – Tenders Electronic Daily",
         "url": "https://ted.europa.eu/en/notice/-/detail/469290-2026"
+      }
+    },
+    {
+      "id": "US-USSS-70US0926R70093916",
+      "title": "40mm less-lethal, kouřové a FN303 střelivo a komponenty",
+      "buyer": "United States Secret Service",
+      "country": "Spojené státy",
+      "region": "Severní Amerika",
+      "productArea": "Speciální a cvičné střelivo",
+      "calibers": [
+        "40 mm less-lethal",
+        "40 mm smoke",
+        "FN303 ammunition and components"
+      ],
+      "status": "active",
+      "relevance": 82,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-08-21",
+      "deadline": "2026-09-10",
+      "firstSeen": "2026-09-09",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [],
+      "summary": "United States Secret Service poptává 40mm méně smrtící a kouřové střelivo spolu s municí a komponenty FN303. Dodatek č. 4 zveřejněný 8. září znovu prodloužil lhůtu pro nabídky.",
+      "managementNote": "Aktuální specializovaná příležitost s velmi krátkým termínem. Prověřit rozsah položek a možnost účasti přes způsobilý americký malý podnik.",
+      "risks": [
+        "Uzávěrka je 10. 9. 2026 ve 14:00 EDT",
+        "Soutěž je vyhrazena americkým malým podnikům",
+        "Veřejný souhrn neuvádí hodnotu ani množství jednotlivých položek"
+      ],
+      "verification": "Ověřeno 9. 9. 2026 v aktuálním oficiálním oznámení SAM.gov po dodatku č. 4; stav Active a nová lhůta 10. 9. 2026 ve 14:00 EDT.",
+      "source": {
+        "name": "SAM.gov",
+        "url": "https://sam.gov/opp/fb18fc66fc344541865458c54a6208fe/view"
       }
     },
     {
@@ -269,7 +164,7 @@
       "publishedAt": "2026-08-13",
       "deadline": "2026-09-11",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Saská policie poptává 144 000 nábojů 9×19 mm se střelou, která se po zásahu rozpadá. Dodání je požadováno nejpozději do 29. ledna 2027.",
@@ -303,7 +198,7 @@
       "publishedAt": "2026-07-20",
       "deadline": "2026-09-11",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Belgické ministerstvo obrany připravuje víceletý nákup nábojů 7,62×39 mm Ball pro AK-47/AKM a 7,62×54 mm Ball pro pušky Dragunov, s plněním do roku 2032.",
@@ -338,7 +233,7 @@
       "publishedAt": "2026-09-04",
       "deadline": "2026-09-11",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Arkansas Army National Guard poptává 10 000 nábojů .223 Hornady TAP 55 gr, 15 000 nábojů .223 BTHP 75 gr a 1 000 nábojů 9 mm Federal Syntech 150 gr pro střelecký výcvik.",
@@ -352,6 +247,45 @@
       "source": {
         "name": "SAM.gov",
         "url": "https://sam.gov/opp/b0b93577faeb461386f8c91662300aea/view"
+      }
+    },
+    {
+      "id": "TED-609937-2026",
+      "title": "Dodávka 300 000 nábojů 9×19 mm FMJ",
+      "buyer": "Izba Administracji Skarbowej w Rzeszowie",
+      "country": "Polsko",
+      "region": "Evropa",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "9×19 mm FMJ"
+      ],
+      "status": "active",
+      "relevance": 92,
+      "value": null,
+      "currency": "PLN",
+      "publishedAt": "2026-09-04",
+      "deadline": "2026-09-14",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [
+        "deadline",
+        "managementNote",
+        "risks",
+        "verification",
+        "source"
+      ],
+      "summary": "Polská celní správa soutěží v samostatné muniční části 300 000 nových nábojů 9×19 mm FMJ; 150 000 kusů tvoří jistý odběr a dalších 150 000 kusů opce.",
+      "managementNote": "Velmi dobrá produktová shoda. Dodatek prodloužil termín do 14. září 2026; prověřit samostatnou účast v muniční části a aktuální polskou dokumentaci.",
+      "risks": [
+        "I po prodloužení zbývá krátká lhůta",
+        "Zakázka je součástí širšího nákupu zbraní a donucovacích prostředků",
+        "Dokumentace a podání jsou v polštině"
+      ],
+      "verification": "Ověřeno 9. 9. 2026 v oficiálním změnovém oznámení TED 619424-2026; lhůta všech tří částí byla stanovena na 14. 9. 2026 v 10:00 CEST.",
+      "source": {
+        "name": "TED – Tenders Electronic Daily",
+        "url": "https://ted.europa.eu/en/notice/-/detail/619424-2026"
       }
     },
     {
@@ -372,7 +306,7 @@
       "publishedAt": "2026-09-04",
       "deadline": "2026-09-14",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Army Contracting Command připravuje dodávky perkusních zápalek M82 a M82A1 prostřednictvím dvou IDIQ smluv s pěti dvanáctiměsíčními objednávkovými obdobími.",
@@ -406,7 +340,7 @@
       "publishedAt": "2026-09-04",
       "deadline": "2026-09-14",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Orlando VA Medical Center poptává 130 kartonů služebních nábojů 9 mm JHP 124 gr a 100 kartonů služebního puškového střeliva .223 v rámci plánovaného dvouletého plnění.",
@@ -440,7 +374,7 @@
       "publishedAt": "2026-08-10",
       "deadline": "2026-09-15",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Madrid poptává 1,4 milionu nábojů 9×19 mm: 100 000 služebních poloplášťových a 1,3 milionu výcvikových TFMJ/FMC NONTOX.",
@@ -473,7 +407,7 @@
       "publishedAt": "2026-08-12",
       "deadline": "2026-09-16",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Rakouské ministerstvo obrany poptává 100 000 cvičných stopovacích nábojů ráže 7,62 mm se zápalkovým iniciátorem pro systém PAR 66/79; požadované dodání je v prvním čtvrtletí 2028.",
@@ -504,7 +438,7 @@
       "publishedAt": "2026-08-10",
       "deadline": "2026-09-16",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Maltská policie soutěží rámcovou smlouvu na méně smrtící střelivo v odhadované hodnotě 120 000 EUR; přesné ráže jsou v zadávací dokumentaci.",
@@ -539,7 +473,7 @@
       "publishedAt": "2026-09-02",
       "deadline": "2026-09-17",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Německý obranný nákup přibližně 4,19 milionu nábojů v 200ranných pásech, ve směsi dvou dvojjádrových, jednoho stopovacího a jednoho tvrdého jádra.",
@@ -570,7 +504,7 @@
       "publishedAt": "2026-08-28",
       "deadline": "2026-09-28",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Město Stellenbosch soutěží dodávky, licencování, dopravu a vykládku různých střelných zbraní a střeliva podle aktuální potřeby, s rámcem do 30. června 2029.",
@@ -603,7 +537,7 @@
       "publishedAt": "2026-07-21",
       "deadline": "2026-10-02",
       "firstSeen": "2026-09-08",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Otevřené výběrové řízení na dodávku 93 650 nábojů .338 Lapua Magnum Limited Penetration Match během jednoho roku s možností dalších čtyř let. Dodávky jsou určeny pro více míst v Kanadě.",
@@ -636,7 +570,7 @@
       "publishedAt": "2026-09-01",
       "deadline": "2026-10-05",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Litevská agentura Ministerstva vnitra zahájila obranné vyjednávací řízení na dodávku stopovacích nábojů ráže 7,62×51 mm.",
@@ -669,7 +603,7 @@
       "publishedAt": "2026-08-14",
       "deadline": "2026-10-06",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Rakouské ministerstvo obrany poptává 300 000 odstřelovacích nábojů ráže 8,6 mm / .338 Lapua Magnum v provedení Ball Sniper.",
@@ -702,7 +636,7 @@
       "publishedAt": "2026-08-27",
       "deadline": "2026-10-06",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Otevřený maltský rámec na dodávky 9mm střeliva pro policejní sbor s odhadovanou hodnotou 360 000 EUR.",
@@ -739,7 +673,7 @@
       "publishedAt": "2026-09-03",
       "deadline": "2026-10-08",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Rozsáhlá čtyřletá zakázka rozdělená do více částí. Zahrnuje milionové objemy 7,62×39 mm a specializované varianty .300 Norma Magnum, .308 Winchester, .338 Lapua Magnum a 7,62×51 mm.",
@@ -773,7 +707,7 @@
       "publishedAt": "2026-09-01",
       "deadline": "2026-10-13",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Rámcová dohoda na 300 000 brokových nábojů 12/70: 160 000 kusů s devíti olověnými broky nejméně 8,4 mm a 140 000 jednotných střel se stabilizátorem.",
@@ -787,6 +721,51 @@
       "source": {
         "name": "TED – Tenders Electronic Daily",
         "url": "https://ted.europa.eu/en/notice/-/detail/601725-2026"
+      }
+    },
+    {
+      "id": "TED-620335-2026",
+      "title": "Více než 55,6 milionu nábojů pro slovenskou policii",
+      "buyer": "Ministerstvo vnútra Slovenskej republiky",
+      "country": "Slovensko",
+      "region": "Evropa",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        ".38 Special",
+        ".357 Magnum",
+        "9×19 mm Duty",
+        "9×19 mm Subsonic",
+        "9×19 mm AP",
+        "9×19 mm 8,0 g",
+        "9×19 mm interiérové",
+        "4.6×30 mm Ball",
+        "5.7×28 mm FMJ",
+        "5.7×28 mm hollow point",
+        "12/70 slug a brokové",
+        "12/70 vyrážecí",
+        "12/70 proti dronům"
+      ],
+      "status": "active",
+      "relevance": 99,
+      "value": 14544024,
+      "currency": "EUR",
+      "publishedAt": "2026-09-09",
+      "deadline": "2026-10-15",
+      "firstSeen": "2026-09-09",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [],
+      "summary": "Slovenské ministerstvo vnitra soutěží sedm částí malorážového, služebního, výcvikového a brokového střeliva pro policii. Souhrnný objem přesahuje 55,6 milionu kusů a rámec je plánován na 48 měsíců.",
+      "managementNote": "Mimořádně významná evropská příležitost. Prioritně prověřit podmínky jednotlivých částí, zejména 9×19 mm, revolverové, 4,6×30 mm, 5,7×28 mm a brokové varianty v systému JOSEPHINE.",
+      "risks": [
+        "Sedm částí s rozdílnými technickými parametry a vzorkováním",
+        "Elektronická komunikace a dokumentace probíhá přes systém JOSEPHINE",
+        "Pevná lhůta vázanosti nabídek je uvedena do 30. 9. 2027"
+      ],
+      "verification": "Ověřeno 9. 9. 2026 v oficiálním oznámení TED 620335-2026 včetně sedmi částí, množství, hodnoty 14 544 024 EUR bez DPH a uzávěrky 15. 10. 2026.",
+      "source": {
+        "name": "TED – Tenders Electronic Daily",
+        "url": "https://ted.europa.eu/en/notice/-/detail/620335-2026"
       }
     },
     {
@@ -808,7 +787,7 @@
       "publishedAt": "2026-08-06",
       "deadline": "2026-10-15",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Rozsáhlý otevřený nákup 9mm střeliva pro Guardia Civil zahrnující provedení NATO, netoxické a poloplášťové; odhadovaná hodnota činí 8,1 milionu EUR.",
@@ -843,7 +822,7 @@
       "publishedAt": "2026-08-21",
       "deadline": "2026-10-26",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "United States Secret Service soutěží pětiletý IDIQ rámec na tři kategorie 9mm střeliva: služební, frangible a standardní ball. Oznámení vyžaduje rovněž vzorky jednotlivých variant.",
@@ -877,7 +856,7 @@
       "publishedAt": "2026-06-10",
       "deadline": "2026-10-30",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Francouzské ministerstvo vnitra soutěží standardní a optimalizované 9×19 mm střelivo pro policii, celní správu a vězeňskou službu.",
@@ -914,7 +893,7 @@
       "publishedAt": "2026-09-07",
       "deadline": "2026-11-03",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Otevřená rámcová dohoda na celkem 4 020 000 nábojů 5,56×45 mm v provedeních SS109, HPBT, XRG, FMJ a AP. Předpokládaná doba rámce je 48 měsíců.",
@@ -948,7 +927,7 @@
       "publishedAt": "2026-08-27",
       "deadline": "2026-12-01",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Francouzský rámec na střelivo středního účinku ráže 12 pro specializované zásahové síly a vězeňskou správu. Maximální hodnoty částí jsou 3,5 a 6,2 milionu EUR.",
@@ -984,7 +963,7 @@
       "publishedAt": "2025-11-03",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Předběžné oznámení španělského ministerstva obrany popisuje čtyřletý rámec na několik variant 9×19 mm střeliva v celkové odhadované hodnotě 13,65 milionu EUR.",
@@ -1017,7 +996,7 @@
       "publishedAt": "2026-05-27",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Nizozemské ministerstvo obrany zveřejnilo předběžnou tržní konzultaci k 5,56×45 mm střelivu určenému proti malým bezpilotním systémům. Řádné oznámení je plánováno na květen 2027.",
@@ -1050,7 +1029,7 @@
       "publishedAt": "2026-08-05",
       "deadline": "2026-09-11",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "US Marine Corps zjišťuje dostupnost sériově vyráběného 5,56×45 mm střeliva proti malým dronům. Požaduje mosaznou nábojnici, vícesegmentový projektil a deklarovanou roční kapacitu nejméně 20 milionů kusů.",
@@ -1081,7 +1060,7 @@
       "publishedAt": null,
       "deadline": "2026-12-31",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Oficiální srílanský seznam uvádí roční výzvu CEFAP k podávání nabídek na výbušniny, střelné zbraně a střelivo pro období 2026/27 s uvedeným koncem programu 31. prosince 2026.",
@@ -1115,7 +1094,7 @@
       "publishedAt": "2026-06-01",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Předběžná konzultace k brokovému střelivu ráže 12 s bismutovými broky No. 4 a No. 5 pro plašení ptactva na vojenských letištích. Plánovací oznámení uvádělo zveřejnění soutěže na konec srpna 2026.",
@@ -1148,7 +1127,7 @@
       "publishedAt": "2026-08-03",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Nizozemské ministerstvo obrany zjišťuje možnosti trhu pro dva typy speciálních nábojů používaných v systémech k bezpečnému narušení improvizovaných výbušných zařízení.",
@@ -1183,7 +1162,7 @@
       "publishedAt": "2026-02-11",
       "deadline": "2026-03-31",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Evropská obranná agentura provedla předběžnou konzultaci k několika kategoriím munice včetně malorážového střeliva 5.56×45 mm. Záznam vytváří silný časný signál pro navazující společné nákupy.",
@@ -1215,7 +1194,7 @@
       "publishedAt": null,
       "deadline": "2026-04-06",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Bangladéšská policie vypsala mezinárodně zveřejněnou zakázku na 150 000 nábojů ráže 7,62×51 mm. Lhůta skončila v dubnu 2026.",
@@ -1248,7 +1227,7 @@
       "publishedAt": "2026-02-22",
       "deadline": "2026-05-23",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Německá zakázka na výrobu a dodávku vícenásobného bílého signálního střeliva LS75 DM25A1B1 ráže 26,5 mm.",
@@ -1280,7 +1259,7 @@
       "publishedAt": "2026-08-27",
       "deadline": "2026-09-04",
       "firstSeen": "2026-09-08",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Poptávka FLETC na čtyři bedny výcvikového střeliva 9 mm BBR, celkem 4 000 nábojů, včetně dopravy do Cheltenhamu v Marylandu.",
@@ -1313,7 +1292,7 @@
       "publishedAt": "2026-08-27",
       "deadline": "2026-09-07",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Polská daňová a celní správa v Katovicích poptávala 50 000 nábojů 9×19 mm TFMJ Nontox pro své příslušníky; veřejné oznámení výslovně uvádí výrobek Sellier & Bellot.",
@@ -1327,6 +1306,128 @@
       "source": {
         "name": "Gov.pl – IAS Katowice",
         "url": "https://www.gov.pl/web/ias-katowice/zakup-amunicji-9x19-mm-z-pociskiem-typu-tfmj-nontox-dla-funkcjonariuszy-scs"
+      }
+    },
+    {
+      "id": "US-INL-191NLE26Q0132",
+      "title": "6,5 milionu nábojů 5,56 mm a 9 mm pro program INL Kyiv",
+      "buyer": "U.S. Department of State – INL Kyiv",
+      "country": "Spojené státy / Ukrajina",
+      "region": "Severní Amerika",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "5.56×45 mm M855",
+        "9×19 mm M882",
+        "5.56×45 mm M855 linked"
+      ],
+      "status": "closed",
+      "relevance": 98,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-09-01",
+      "deadline": "2026-09-08",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [
+        "status",
+        "managementNote",
+        "risks",
+        "verification"
+      ],
+      "summary": "Program INL Kyiv poptává 3 miliony nábojů 5,56 mm M855, 1 milion nábojů 9 mm M882 124 gr FMJ a 2,5 milionu páskovaných M855 bez stopovače. Požadováno je nové zboží a dodání do 270 dnů.",
+      "managementNote": "Lhůta skončila 8. září 2026. Sledovat výsledek, případné znovuotevření a návazné federální nákupy pro program INL Kyiv.",
+      "risks": [
+        "Lhůta pro podání nabídek již uplynula",
+        "Soutěž byla vyhrazena americkým veteránským malým podnikům SDVOSB",
+        "Exportní a logistické požadavky pro dodání na Ukrajinu"
+      ],
+      "verification": "Primární oznámení SAM.gov bylo zkontrolováno 9. 9. 2026; zveřejněná lhůta 8. 9. 2026 uplynula a prodloužení nebylo v aktuálním oznámení uvedeno.",
+      "source": {
+        "name": "SAM.gov",
+        "url": "https://sam.gov/opp/5c8f116e079b419d924134d72d2623fd/view"
+      }
+    },
+    {
+      "id": "US-IRS-231043",
+      "title": "Víceletý program 9mm a .223/5,56mm střeliva pro IRS",
+      "buyer": "Internal Revenue Service – Criminal Investigation",
+      "country": "Spojené státy",
+      "region": "Severní Amerika",
+      "productArea": "Malorážové střelivo",
+      "calibers": [
+        "9×19 mm duty",
+        "9×19 mm training",
+        ".223 Remington",
+        "5.56×45 mm"
+      ],
+      "status": "closed",
+      "relevance": 91,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-09-03",
+      "deadline": "2026-09-08",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [
+        "status",
+        "managementNote",
+        "risks",
+        "verification"
+      ],
+      "summary": "IRS Criminal Investigation znovu vypsala víceletý program na služební a výcvikové střelivo 9 mm a puškové střelivo .223/5,56 mm, s předpokládaným základním obdobím a čtyřmi opcemi.",
+      "managementNote": "Lhůta skončila 8. září 2026. Zachovat jako významný signál víceleté federální spotřeby a sledovat výsledek či případné navazující oznámení.",
+      "risks": [
+        "Lhůta pro podání nabídek již uplynula",
+        "Oznámení bylo opakovaně aktualizováno; při dalším vývoji je nutné číst poslední dodatek",
+        "Americké federální a původové podmínky"
+      ],
+      "verification": "Zveřejněná lhůta v primárním oznámení SAM.gov skončila 8. 9. 2026; stav byl při kontrole 9. 9. 2026 převeden do uzavřené historie.",
+      "source": {
+        "name": "SAM.gov",
+        "url": "https://sam.gov/opp/e9a874b43c7f4b148999d9cbcfde1b04/view"
+      }
+    },
+    {
+      "id": "US-USBR-140R4026Q0152",
+      "title": "Výcvikové značkovací a slepé střelivo 5,56 mm a 9 mm",
+      "buyer": "U.S. Bureau of Reclamation",
+      "country": "Spojené státy",
+      "region": "Severní Amerika",
+      "productArea": "Speciální a cvičné střelivo",
+      "calibers": [
+        "5.56×45 mm marking",
+        "5.56×45 mm blank",
+        "9×19 mm marking",
+        "9×19 mm blank"
+      ],
+      "status": "closed",
+      "relevance": 76,
+      "value": null,
+      "currency": "USD",
+      "publishedAt": "2026-09-01",
+      "deadline": "2026-09-08",
+      "firstSeen": "2026-09-07",
+      "lastChecked": "2026-09-09",
+      "isNew": true,
+      "changedFields": [
+        "status",
+        "managementNote",
+        "risks",
+        "verification"
+      ],
+      "summary": "Bureau of Reclamation poptává značkovací a hlasité slepé výcvikové střelivo: 19 800 kusů 5,56 mm marking, 7 200 kusů 5,56 mm blank, 20 000 kusů 9 mm marking a 1 000 kusů 9 mm blank včetně ochranných prostředků.",
+      "managementNote": "Lhůta skončila 8. září 2026. Sledovat výsledek a případné opakování menších balíků značkovacího a slepého výcvikového střeliva.",
+      "risks": [
+        "Lhůta pro podání nabídek již uplynula",
+        "Soutěž byla vyhrazena americkým malým podnikům",
+        "Brand-name-or-equal požadavek UTM a dodání do 120 dnů"
+      ],
+      "verification": "Primární oznámení SAM.gov a zveřejněná lhůta byly znovu zkontrolovány 9. 9. 2026; termín 8. 9. 2026 ve 23:00 MDT uplynul.",
+      "source": {
+        "name": "SAM.gov",
+        "url": "https://sam.gov/opp/db49444a636048f7a7a2851a4a068b7b/view"
       }
     },
     {
@@ -1347,7 +1448,7 @@
       "publishedAt": "2025-11-01",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Zakázka související s realistickým policejním výcvikem a barvicím střelivem CMTS v rážích 9×19 mm a 5.56×45 mm. Plánované období plnění zasahuje do roku 2027.",
@@ -1380,7 +1481,7 @@
       "publishedAt": "2024-11-11",
       "deadline": "2024-12-03",
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Historická veřejná zakázka na 161 842 nábojů 9 mm FMJ a 51 251 nábojů 5.56 mm M193 pro filipínskou policii. Slouží jako konkrétní signál opakované policejní spotřeby.",
@@ -1412,7 +1513,7 @@
       "publishedAt": "2026-02-01",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Víceleté zajištění dodávek střeliva pro období od března 2026 do února 2030. Historický záznam je důležitý pro sledování rámců, dodavatelů a budoucího opakování nákupu.",
@@ -1445,7 +1546,7 @@
       "publishedAt": "2026-08-26",
       "deadline": null,
       "firstSeen": "2026-09-08",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": true,
       "changedFields": [],
       "summary": "Oznámení o zadání zakázky na volně balené M1042 a páskované M1071 značkovací střelivo ráže 5,56 mm pro Close Combat Mission Capability Kit. Veřejný záznam uvádí jako dodavatele UTM Limited.",
@@ -1479,7 +1580,7 @@
       "publishedAt": "2026-03-11",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Brazilská federální policie uzavřela se společností Companhia Brasileira de Cartuchos smlouvu na 700 000 výcvikových nábojů 9 mm Luger FMJ 124 gr a 263 000 nábojů 5,56 NATO M193 55 gr.",
@@ -1514,7 +1615,7 @@
       "publishedAt": "2026-02-13",
       "deadline": null,
       "firstSeen": "2026-09-07",
-      "lastChecked": "2026-09-08",
+      "lastChecked": "2026-09-09",
       "isNew": false,
       "changedFields": [],
       "summary": "Britské Defence General Munitions zadalo společnosti SwissP Defence víceletou smlouvu na malorážové střelivo, zápalky a granáty pro období od dubna 2026 do března 2028.",
